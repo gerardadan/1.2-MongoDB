@@ -1,4 +1,4 @@
-# Optica "Cul d'Ampolla" - Level 1 Exercise
+# Optica "Cul d'Ampolla" - Level 1 Exercise 2
 
 ## Description
 
