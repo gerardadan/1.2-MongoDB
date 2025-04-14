@@ -1,0 +1,15 @@
+{
+  "Optic": {
+    "Products": {
+      "Glasses": {
+        "Brand": "string",
+        "Frame_type": "Strig",
+        "Supplier": "String",
+        "Prince": "decimal"
+      }
+    },
+    "Salesorder": {
+      "Account": {}
+    }
+  }
+}

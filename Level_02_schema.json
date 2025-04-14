@@ -1,0 +1,66 @@
+customer
+{
+  "_id": ObjectId("..."),
+  "first_name": "John",
+  "last_name": "Doe",
+  "address": "123 Main Street",
+  "postal_code": "08001",
+  "city": "Barcelona",
+  "province": "Barcelona",
+  "phone": "600123456"
+}
+
+product
+{
+  "_id": ObjectId("..."),
+  "name": "Four Cheese Pizza",
+  "description": "Pizza with mozzarella, gorgonzola, parmesan, and goat cheese",
+  "image": "http://example.com/fourcheese.jpg",
+  "price": 10.5,
+  "type": "pizza",
+  "category": "Winter Special"
+}
+
+store
+{
+  "_id": ObjectId("..."),
+  "address": "Diagonal Avenue, 120",
+  "postal_code": "08018",
+  "city": "Barcelona",
+  "province": "Barcelona"
+}
+
+employee
+{
+  "_id": ObjectId("..."),
+  "first_name": "Laura",
+  "last_name": "Martinez",
+  "nif": "12345678A",
+  "phone": "611223344",
+  "role": "delivery",
+  "store_id": ObjectId("...")
+}
+
+
+order
+{
+  "_id": ObjectId("..."),
+  "customer_id": ObjectId("..."),
+  "store_id": ObjectId("..."),
+  "delivery_employee_id": ObjectId("..."),
+  "order_datetime": ISODate("2025-04-14T12:30:00Z"),
+  "delivery_type": "home",
+  "products": [
+    {
+      "product_id": ObjectId("..."),
+      "quantity": 2
+    },
+    {
+      "product_id": ObjectId("..."),
+      "quantity": 1
+    }
+  ],
+  "total_price": 28.5,
+  "notes": "Extra cheese on the pizza",
+  "delivery_datetime": ISODate("2025-04-14T13:10:00Z")
+}
